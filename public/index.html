@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f7f3">
+    <title>AI for Meta-Science Hackathon · Stockholm · 10–17 November 2026</title>
+    <meta name="description" content="Seven days to rethink how science is organised, evaluated, and rewarded. Explore three AI for Meta-Science tasks. Stockholm, 10–17 November 2026.">
+    <link rel="canonical" href="https://ai4metascience-hackathon.stockholm.ai/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AI for Meta-Science Hackathon · 10–17 November 2026">
+    <meta property="og:description" content="Build better tools for science. A seven-day hackathon with Stockholm AI, AI for Meta-Science, and Sweden AI Factory.">
+    <meta property="og:url" content="https://ai4metascience-hackathon.stockholm.ai/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="/" aria-label="AI for Meta-Science Hackathon home"><span class="mark" aria-hidden="true">✳</span> AI FOR META-SCIENCE <span class="edition">/ 2026</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#tasks">The tasks</a>
+        <a href="#dates">Key dates</a>
+        <a class="nav-register" href="https://luma.com/6b08hj2b">Kick-off <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main" class="wrap">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Stockholm · 10–17 November 2026</p>
+        <h1 id="hero-title">AI for<br>Meta-Science<span class="full-stop">.</span></h1>
+        <div class="hero-bottom">
+          <div>
+            <p class="hero-label">A seven-day hackathon.</p>
+            <p class="hero-description">Rethink how science is organised, evaluated, and rewarded. Build the tools to make it happen.</p>
+          </div>
+          <a class="button" href="#tasks">Explore the tasks <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section class="intro section-grid" aria-labelledby="about-title">
+        <p class="eyebrow section-label">01 / The idea</p>
+        <div>
+          <h2 id="about-title">Science is accelerating.<br>Let’s help it keep up.</h2>
+          <p>AI is transforming research, from generating hypotheses to running experiments and making discoveries. As scientific output grows, our ability to evaluate, validate, and distinguish meaningful discoveries from noise needs to grow with it.</p>
+          <p>This hackathon brings together Stockholm AI, the <a href="https://ai4metascience.org/">AI for Meta-Science NeurIPS Workshop</a>, and <a href="https://swedenaifactory.se/">Sweden AI Factory</a> to explore better ways of doing science.</p>
+        </div>
+      </section>
+
+      <section id="tasks" class="tasks" aria-labelledby="tasks-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 / The challenges</p><h2 id="tasks-title">Three tasks. Real research problems.</h2></div>
+          <a class="text-link download" href="/assets/AI4MetaScience_Hackathon_Tasks.pdf" download>Full task brief <span class="file-type">PDF</span> <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="section-intro">The brief outlines three candidate tasks, from the first research question to the evidence behind a published claim. Open a task to explore what to build.</p>
+
+        <details class="task" open>
+          <summary><span class="task-number">01</span><span class="task-heading"><span class="task-kicker">Ideation stress-test tool</span><span class="task-title">Is this question worth asking?</span></span><span class="toggle" aria-hidden="true"></span></summary>
+          <div class="task-content">
+            <p>Researchers can spend months on a question that is vague, impossible to answer with available data, or already answered by prior work. These problems are often caught late. Build an early check on whether a question is precise, testable, and worth the resources.</p>
+            <h3>What to build</h3>
+            <p>A tool that takes one research question and:</p>
+            <ul>
+              <li>Extracts and restates its key terms, flagging ambiguity or inconsistent use in the literature.</li>
+              <li>Surfaces the question’s implicit assumptions.</li>
+              <li>Identifies the evidence or data needed to answer it, and flags evidence that is unlikely to be obtainable.</li>
+              <li>Recommends whether to <strong>proceed, narrow, revise, or stop</strong>, with reasoning.</li>
+            </ul>
+            <div class="success"><h3>What success looks like</h3><p>A vague or overly broad question gets a specific, actionable critique. For example, identify the three different meanings of “engagement” in the literature, rather than simply suggesting that the researcher clarify their terms.</p></div>
+          </div>
+        </details>
+
+        <details class="task">
+          <summary><span class="task-number">02</span><span class="task-heading"><span class="task-kicker">Provenance-preserving lab notebook</span><span class="task-title">Keep the research trail intact.</span></span><span class="toggle" aria-hidden="true"></span></summary>
+          <div class="task-content">
+            <p>Good research leaves a trail: why a method was chosen, what was abandoned, and which code produced which result. When AI tools rapidly iterate on research tasks, that trail can disappear, eroding accountability and reproducibility.</p>
+            <h3>What to build</h3>
+            <p>A lightweight logging or wrapper tool around a single AI-assisted research task, such as data cleaning, running experiments, or iterating on a model. Automatically capture:</p>
+            <ul>
+              <li>Each proposed plan or hypothesis and the reasoning behind it.</li>
+              <li>What was actually run, including code, parameters, and data versions.</li>
+              <li>What failed or contradicted expectations, and how the plan changed in response.</li>
+              <li>A timeline a human can follow to reconstruct the actual decision path.</li>
+            </ul>
+            <div class="success"><h3>What success looks like</h3><p>A reviewer who wasn’t present can inspect the log and answer “Why did they change approach at step 4?” without asking the researcher.</p></div>
+          </div>
+        </details>
+
+        <details class="task">
+          <summary><span class="task-number">03</span><span class="task-heading"><span class="task-kicker">Claim-to-evidence linker</span><span class="task-title">Follow the claim. Find the evidence.</span></span><span class="toggle" aria-hidden="true"></span></summary>
+          <div class="task-content">
+            <p>Reviewers rarely have time to trace every claim to its supporting evidence. Polished writing can make a paper feel convincing without making its claims well supported. Build a way to inspect those links directly.</p>
+            <h3>What to build</h3>
+            <p>A tool that takes one paper or preprint, identifies its major claims, and links each to its exact supporting figure, table, results paragraph, or code path. Flag:</p>
+            <ul>
+              <li>Claims with no traceable supporting evidence in the document.</li>
+              <li>Evidence that is weaker than the claim’s stated confidence, such as a strong conclusion backed only by a single small-sample experiment.</li>
+              <li>What was checked and what remains unverified.</li>
+            </ul>
+            <div class="success"><h3>The output</h3><p>An inspectable map of <strong>claim → evidence → confidence or caveat</strong>, so readers can assess each link individually.</p></div>
+          </div>
+        </details>
+      </section>
+
+      <section id="dates" class="dates section-grid" aria-labelledby="dates-title">
+        <div><p class="eyebrow section-label">03 / Your calendar</p><h2 id="dates-title">Seven days<br>to build.</h2><p class="timezone">All times are Stockholm time (CET).<br>All dates are in 2026.</p></div>
+        <ol class="timeline">
+          <li><div class="date"><time datetime="2026-11-10T17:30:00+01:00">10 Nov</time><span>17:30–20:00</span></div><div><h3>Kick-off in Stockholm</h3><p>Meet at RISE KTH for an introduction to the challenges and competition details. Food and drinks provided.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=RISE%20Drottning%20Kristinas%20v%C3%A4g%2061%20Stockholm">Drottning Kristinas väg 61 <span aria-hidden="true">↗</span></a></div></li>
+          <li><div class="date"><time datetime="2026-11-17T18:00:00+01:00">17 Nov</time><span>18:00</span></div><div><h3>Submission deadline</h3><p>Time to share what you’ve built.</p></div></li>
+          <li><div class="date"><time datetime="2026-11-24">24 Nov</time></div><div><h3>Winner announced</h3><p>The winning team is revealed.</p></div></li>
+          <li><div class="date"><time datetime="2026-12-09">9–13 Dec</time></div><div><h3>NeurIPS 2026 · Paris</h3><p>The winning team takes their work to the AI for Meta-Science workshop.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="prize section-grid" aria-labelledby="prize-title">
+        <p class="eyebrow section-label">04 / The prize</p>
+        <div><p class="prize-overline">From Stockholm to Paris.</p><h2 id="prize-title">Your work.<br>The NeurIPS stage.</h2><p>The winning team receives an <strong>all-expenses-paid trip to NeurIPS 2026 in Paris, 9–13 December</strong>, plus a poster slot and a dedicated oral presentation at the AI for Meta-Science workshop.</p><p class="sponsor-note">The hackathon and winning prize are fully sponsored by Sweden AI Factory.</p></div>
+      </section>
+
+      <section class="join" aria-labelledby="join-title">
+        <div><p class="eyebrow">Start with the kick-off</p><h2 id="join-title">See you in Stockholm.</h2><p>10 November · 17:30 · RISE KTH</p><p class="waitlist-note">The kick-off is currently full. Join the waitlist on Luma.</p></div>
+        <a class="button" href="https://luma.com/6b08hj2b">Join the kick-off waitlist <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p class="eyebrow">Brought together by</p>
+        <div class="partners">
+          <a href="https://www.stockholm.ai/" aria-label="Stockholm AI"><img class="stockholm-logo" src="/assets/stockholm-ai.png" alt="Stockholm AI" width="512" height="512" loading="lazy"></a>
+          <a href="https://ai4metascience.org/" aria-label="AI for Meta-Science NeurIPS Workshop"><img class="aim-logo" src="/assets/aim.svg" alt="AIM — AI for Meta-Science" width="286" height="196" loading="lazy"></a>
+          <a href="https://swedenaifactory.se/" aria-label="Sweden AI Factory"><img class="factory-logo" src="/assets/sweden-ai-factory.webp" alt="Sweden AI Factory" width="2048" height="587" loading="lazy"></a>
+        </div>
+        <div class="footer-bottom"><p>AI for Meta-Science Hackathon · 2026</p><a href="mailto:info@stockholm.ai">Get in touch <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </footer>
+  </body>
+</html>

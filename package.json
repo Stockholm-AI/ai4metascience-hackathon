@@ -1,0 +1,12 @@
+{
+  "name": "ai4metascience-hackathon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Stockholm AI for Meta-Science Hackathon website",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
