@@ -38,6 +38,6 @@ Automatic GitHub deployments are not connected yet: Vercel requires a GitHub Log
 - Registration: https://luma.com/6b08hj2b (currently a kick-off waitlist).
 - Task source: `AI4MetaScience_Hackathon_Tasks.pdf` in this repository. The task requirements and success criteria are summarised on the page; the PDF is also available in full.
 
-Event details were checked against the supplied Luma screenshot and [the Luma event](https://luma.com/6b08hj2b). Partner links: [Stockholm AI](https://www.stockholm.ai/), [AI for Meta-Science](https://ai4metascience.org/), and [Sweden AI Factory](https://swedenaifactory.se/).
+Event details were checked against the supplied Luma screenshot and [the Luma event](https://luma.com/6b08hj2b). Partner links: [Stockholm AI](https://www.stockholm.ai/), [AI for Meta-Science](https://ai4metascience.org/), [Sweden AI Factory](https://swedenaifactory.se/), and [Berget AI](https://berget.ai/).
 
 The brief does not specify a submission URL, team-size limits, judging criteria, or participation eligibility. Those are not invented on the site; add confirmed instructions when available. The kick-off waitlist status is static copy and should be updated if registration changes.
